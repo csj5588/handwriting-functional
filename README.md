@@ -15,4 +15,5 @@
 
 ## 函数式编程开发辅助工具
 
-- [ramda](https://github.com/ramda/ramda) 简介：A practical functional library for JavaScript programmers.
+- [Ramda](https://github.com/ramda/ramda) 简介：A practical functional library for JavaScript programmers.
+- [Ramda 函数库参考教程](http://www.ruanyifeng.com/blog/2017/03/ramda.html) 简介：这是一个很重要的库，提供了许多有用的方法，每个 JavaScript 程序员都应该掌握这个工具。
