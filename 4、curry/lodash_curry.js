@@ -18,17 +18,6 @@ function curry(fn) { // 形参是fn应该有的参数 在这里就是getSum中�
   }
 }
 
-function curry(fn) {
-  return function curriedFn(...args1) {
-    if (args1.length < fn.length) {
-      return function(...args2) {
-        return curriedFn(...args1, ...args2);
-      }
-    }
-    return fn(...args1);
-  }
-}
-
 function getSum(a, b, c) {
   return a + b + c;
 }
