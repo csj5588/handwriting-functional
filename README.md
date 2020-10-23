@@ -33,11 +33,16 @@
     |   |-- side.effect.js
     |   |-- testable.js
     |-- 4、curry
-        |-- enjoyment.js
-        |-- extend.js
+    |   |-- enjoyment.js
+    |   |-- extend.js
+    |   |-- index.js
+    |   |-- lodash_curry.js
+    |   |-- pritice.js
+    |-- 5、compose
+        |-- category.js
+        |-- debug.js
         |-- index.js
-        |-- lodash_curry.js
-        |-- pritice.js
+        |-- pointfree.js
 
 ```
 ## 如何生成目录结构
