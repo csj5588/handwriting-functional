@@ -21,5 +21,34 @@
  * 对象就是数据累心能，例如String、Boolean、Number和Object等等。
  * 通常我们把数据类型视作有可能的值的一个集合Set。像Boolean就可以看作是【true，false】的集合，
  * Number可以是所有实数的一个集合。把类型当作集合对待是有好处的，因为我们可以利用集合论（set theory）处理类型。
+ * 
+ * 态射的搜集
+ * 态射是标准的、普通的纯函数。
+ * 
+ * 态射的组合
+ * 
+ * 你可能猜到了，这就是本章介绍的新玩意 -- 组合。我们已经讨论过compose函数是符合结合律的，这并非巧合
+ * 结合律是在范畴学中对任何组合都适用的一个特性。
+ * 
+ * 这里有一个具体的例子：
  */
+
+var compose = function(f, g) {
+  return function(x) {
+    return f(g(x));
+  }
+}
+
+var g = function(x) { return x.length; };
+var f = function(x) { return x === 4 }
+var isFourLetterWord = compose(f, g); 
+
+/**
+ * identity这个独特的射态
+ * 让我们介绍一个名为id的实用函数。这个函数接受随便什么输入然后原封不动地返回他；
+ * 你可能会问“这到底哪里有用了？”。别急，我们会在随后的章节中拓展这个函数的，
+ * 暂时先把它当作一个可以替代给定值的函数——一个假装自己是普通数据的函数。
+ */
+
+var id = function(x) { return x };
 
