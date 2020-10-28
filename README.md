@@ -6,6 +6,7 @@
 - [Ramda](https://github.com/ramda/ramda) 简介：A practical functional library for JavaScript programmers.
 - [Ramda 函数库参考教程](http://www.ruanyifeng.com/blog/2017/03/ramda.html) 简介：这是一个很重要的库，提供了许多有用的方法，每个 JavaScript 程序员都应该掌握这个工具。
 - [lodash-fp](https://github.com/lodash-archive/lodash-fp) 简介：柯里化的lodash
+- [Hoogle](https://hoogle.haskell.org/) 简介：它允许您按函数名或近似类型签名搜索堆栈上的Haskell库
   
 ## 目录结构
 ```
