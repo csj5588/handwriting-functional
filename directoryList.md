@@ -1,5 +1,6 @@
 |-- github
     |-- .gitignore
+    |-- MathInFunctional.md
     |-- README.md
     |-- directoryList.md
     |-- introduce.md
@@ -28,7 +29,32 @@
     |   |-- lodash_curry.js
     |   |-- pritice.js
     |-- 5、compose
-        |-- category.js
-        |-- debug.js
+    |   |-- category.js
+    |   |-- debug.js
+    |   |-- hand.js
+    |   |-- index.js
+    |   |-- pointfree.js
+    |   |-- pritice.js
+    |-- 6、declare
+    |   |-- flickr.js
+    |   |-- index.js
+    |   |-- flickr
+    |       |-- better.js
+    |       |-- flickr.js
+    |       |-- index.html
+    |-- 7、Hindley-Milner
+    |   |-- free.theorems.js
+    |   |-- index.js
+    |   |-- interface.js
+    |   |-- parametricity.js
+    |-- 8、contianer
+    |   |-- async.js
+    |   |-- either.js
+    |   |-- functor.js
+    |   |-- index.js
+    |   |-- io.js
+    |   |-- maybe.js
+    |   |-- release.js
+    |-- 9、monad
         |-- index.js
-        |-- pointfree.js
+        |-- monad.js
