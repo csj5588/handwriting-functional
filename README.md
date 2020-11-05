@@ -8,6 +8,7 @@
 - [lodash-fp](https://github.com/lodash-archive/lodash-fp) 简介：柯里化的lodash
 - [Hoogle](https://hoogle.haskell.org/) 简介：它允许您按函数名或近似类型签名搜索堆栈上的Haskell库
 - [folktale](https://folktale.origamitower.com/docs/v2.3.0/overview/) 简介：Folktale是一个库，用于支持JavaScript编程的功能样式。在其最新版本中，Folktale提供了用于组合功能， 转换对象，建模数据，处理错误和并发的实用程序。
+- [fantasy-land](https://github.com/fantasyland/fantasy-land) 简介：代数Javascript规范
   
 ## 目录结构
 ```
