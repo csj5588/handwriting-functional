@@ -7,6 +7,7 @@
 - [Ramda 函数库参考教程](http://www.ruanyifeng.com/blog/2017/03/ramda.html) 简介：这是一个很重要的库，提供了许多有用的方法，每个 JavaScript 程序员都应该掌握这个工具。
 - [lodash-fp](https://github.com/lodash-archive/lodash-fp) 简介：柯里化的lodash
 - [Hoogle](https://hoogle.haskell.org/) 简介：它允许您按函数名或近似类型签名搜索堆栈上的Haskell库
+- [folktale](https://folktale.origamitower.com/docs/v2.3.0/overview/) 简介：Folktale是一个库，用于支持JavaScript编程的功能样式。在其最新版本中，Folktale提供了用于组合功能， 转换对象，建模数据，处理错误和并发的实用程序。
   
 ## 目录结构
 ```
