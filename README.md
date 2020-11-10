@@ -20,6 +20,12 @@
     |-- introduce.md
     |-- package-lock.json
     |-- package.json
+    |-- 10、applicative
+    |   |-- ap.js
+    |   |-- derived.js
+    |   |-- index.js
+    |   |-- lift.js
+    |   |-- task.js
     |-- 1、introduction
     |   |-- better.js
     |   |-- better.rename.js
@@ -41,14 +47,14 @@
     |   |-- extend.js
     |   |-- index.js
     |   |-- lodash_curry.js
-    |   |-- pritice.js
+    |   |-- practice.js
     |-- 5、compose
     |   |-- category.js
     |   |-- debug.js
     |   |-- hand.js
     |   |-- index.js
     |   |-- pointfree.js
-    |   |-- pritice.js
+    |   |-- practice.js
     |-- 6、declare
     |   |-- flickr.js
     |   |-- index.js
@@ -70,8 +76,11 @@
     |   |-- maybe.js
     |   |-- release.js
     |-- 9、monad
+        |-- chain.js
         |-- index.js
         |-- monad.js
+        |-- practice.js
+        |-- result.js
 
 ```
 ## 如何生成目录结构
