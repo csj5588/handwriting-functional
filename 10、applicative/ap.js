@@ -19,7 +19,7 @@ Container.of(2).map(add).ap(Container.of(3));
  */
 
 Container.prototype.ap = function(other_container) {
-  return other_container.map(add(2));
+  return other_container.map(this._value);
 }
 
 /**
